@@ -1,6 +1,6 @@
 import HorizontalScroll from '@/components/HorizontalScroll';
 import Slide1Hero from '@/components/slides/Slide1Hero';
-import SlideWhyCourse from '@/components/slides/SlideWhyCourse';
+import Slide2WhyPython from '@/components/slides/Slide2WhyPython';
 import Slide2Outcomes from '@/components/slides/Slide2Outcomes';
 import Slide3Content from '@/components/slides/Slide3Content';
 import Slide4Resources from '@/components/slides/Slide4Resources';
@@ -12,7 +12,7 @@ export default function Home() {
     <main className="bg-slate-50 text-slate-900 selection:bg-indigo-100 selection:text-indigo-900">
       <HorizontalScroll>
         <Slide1Hero />
-        <SlideWhyCourse />
+        <Slide2WhyPython />
         <Slide2Outcomes />
         <Slide3Content />
         <Slide5Assessment />
